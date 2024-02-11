@@ -5,7 +5,7 @@ return {
 		'nvim-lua/plenary.nvim' 
 	},	
 	keys = {
-		{ '<leader>pf', function () require 'telescope.builtin'.find_files() end},
-		{ '<leader>pfg', function () require 'telescope.builtin'.git_files() end}
+		{ '<leader>ff', function () require 'telescope.builtin'.find_files() end},
+		{ '<leader>ffg', function () require 'telescope.builtin'.git_files() end}
 	}
 }
