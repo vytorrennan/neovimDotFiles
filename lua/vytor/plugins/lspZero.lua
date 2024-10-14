@@ -19,7 +19,7 @@ return {
 
 		require('mason').setup({})
 		require('mason-lspconfig').setup({
-			ensure_installed = {"tsserver", "pyright", "jdtls",
+			ensure_installed = {"ts_ls", "pyright", "jdtls",
             "docker_compose_language_service", "dockerls", "html", "cssls", 
             "jsonls"},
 			handlers = {
