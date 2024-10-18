@@ -7,6 +7,7 @@ return {
 		'hrsh7th/cmp-nvim-lsp',
 		'hrsh7th/nvim-cmp',
 		'L3MON4D3/LuaSnip',
+        'rafamadriz/friendly-snippets'
 	},
 	config = function()
 		local lsp_zero = require('lsp-zero')
@@ -25,6 +26,6 @@ return {
 			handlers = {
 				lsp_zero.default_setup,
 			},
-		})	
+		})
 	end,
 }
